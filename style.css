@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: #9b3313;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Newsreader", serif;
+    color: #dfa934 !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dfa934 !important;
+    border-bottom: 2px solid #dfa934 !important;
+    padding-bottom: 0.25rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+main {
+    flex-grow: 1;
+    padding-top: 105px;
+    background-color: #BF4904;
+}
+
+.carousel-item.active{
+    overflow: hidden;
+}
+
+.carousel-item{
+    max-width: 1869px;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+}
