@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: #9b3313;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Newsreader", serif;
+    color: #dfa934 !important;
+    font-weight: 700;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dfa934 !important;
+    border-bottom: 2px solid #dfa934 !important;
+    padding-bottom: 0.25rem;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 105px;
+    background-color: #BF4904;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main div.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Newsreader", serif;
+    font-weight: bolder;
+    color: #8C0303;
+    background-color: #F28705;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+main div.wrapper h1,
+main div.wrapper h3 {
+    margin-top: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9b3313;
+}
+
+footer img {
+    height: 80px;
+    width: 84px;
+}
+
+footer p {
+    font-family: "Newsreader", serif;
+    color: #dfa934;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+main div.wrapper h1,
+main div.wrapper h3 {
+    font-weight: bolder;
+}
