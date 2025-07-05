@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: #9b3313;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Newsreader", serif;
+    color: #dfa934 !important;
+    font-weight: bold;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dfa934 !important;
+    border-bottom: 2px solid #dfa934 !important;
+    padding-bottom: 0.25rem;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 105px;
+    background-color: #BF4904;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-wrapper{
+    background-color: #F28705;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-wrapper h1{
+    font-family: "Newsreader", serif;
+    color: #dfa934;
+    text-align: center;
+    font-weight: 900;
+}
+
+.form-wrapper label{
+    font-family: "Newsreader", serif;
+    color: #dfa934;
+}
+
+.form-wrapper .form-control,
+.form-wrapper .form-select {
+    font-family: "Newsreader", serif;
+    background-color: #9b3313;
+    color: #dfa934;
+    font-weight: 600;
+    border: 1px solid #F28705;
+}
+
+main div form label {
+    font-family: "Newsreader", serif;
+    color: #F28705;
+    font-weight: 600;
+}
+
+.btn.btn-primary.w-100 {
+    background-color: #9b3313;
+    color: #dfa934;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9b3313;
+}
+
+footer img{
+    height: 80px;
+    width: 84px;
+}
+
+footer p{
+    font-family: "Newsreader", serif;
+    color: #dfa934;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
