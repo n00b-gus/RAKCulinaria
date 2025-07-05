@@ -1,0 +1,232 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: #9b3313;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Newsreader", serif;
+    color: #dfa934 !important;
+    font-weight: 700;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dfa934 !important;
+    border-bottom: 2px solid #dfa934 !important;
+    padding-bottom: 0.25rem;
+}
+
+.faixa-horizontal-1 {
+    width: 100%;
+    background-color: #A65D03;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px
+}
+
+.faixa-horizontal-2 {
+    width: 100%;
+    background-color: #943C2E;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px
+}
+
+.faixa-horizontal-3 {
+    width: 100%;
+    background-color: #A65D03;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px
+}
+
+.faixa-horizontal-4 {
+    width: 100%;
+    background-color: #943C2E;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+.faixa-horizontal-5 {
+    width: 100%;
+    background-color: #A65D03;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+.faixa-horizontal-6 {
+    width: 100%;
+    background-color: #943C2E;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+hr.LinhaDourada {
+    width: 630px;
+    height: 2px;
+    background-color: #ffd700;
+    border: none;
+    margin-bottom: 20px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+    color: #000;
+}
+
+main.menu-section {
+    padding-top: 105px;
+    flex-grow: 1;
+}
+
+main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.side-text {
+    max-width: 600px;
+    color: #e1c17b;
+}
+
+.side-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #e1c17b;
+    font-weight: bolder;
+}
+
+.side-text ul {
+    list-style: none;
+    padding-left: 1.2rem;
+    color: #dfa934;
+    font-size: 1.1rem;
+}
+
+.side-text ul h3 {
+    font-weight: bolder;
+}
+
+.side-text li {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.side-text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #D9BE6C;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9b3313;
+    margin-top: 0%;
+    padding-top: 20px;
+}
+
+footer img {
+    height: 80px;
+    width: 84px;
+}
+
+footer p {
+    font-family: "Newsreader", serif;
+    color: #dfa934;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .faixa-horizontal-1,
+  .faixa-horizontal-2,
+  .faixa-horizontal-3,
+  .faixa-horizontal-4,
+  .faixa-horizontal-5,
+  .faixa-horizontal-6 {
+    padding: 20px 10px;
+  }
+
+  .imagem img {
+    max-width: 90%;
+    border-radius: 20px;
+  }
+
+  .side-text {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .side-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .side-text ul {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+
+  .side-text ul h3 {
+    font-size: 1.1rem;
+  }
+
+  .side-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  hr.LinhaDourada {
+    width: 80%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
